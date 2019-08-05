@@ -991,6 +991,11 @@ footer {
         text-align: center;
     }
 
+    ul {
+        list-style-position: outside;
+        padding-left: 1em;
+    }
+
 }
 
 // Extra Small Devices
@@ -1011,4 +1016,22 @@ footer {
         }
     }
 
+    #experience-timeline {
+        &:before, &:after {
+            display: none;
+        }
+    }
+
+    .vtimeline-content {
+        margin-left: 0;
+    }
+
+    .vtimeline-icon {
+        display: none;
+    }
+    
+    .vtimeline-date {
+        text-align: center;
+        margin-left: 0
+    }
 }
