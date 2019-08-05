@@ -1,0 +1,8 @@
+exclude:
+- scss/
+- .gitignore
+- LICENSE.md
+- README.md
+- gulpfile.js
+- package-lock.json
+- package.json
