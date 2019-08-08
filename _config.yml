@@ -6,3 +6,7 @@ exclude:
 - gulpfile.js
 - package-lock.json
 - package.json
+
+include:
+- sitemap.xml
+- googledf644994d01e6990.html
